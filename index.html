@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+
+    <div class="container rounded-5 p-4 my-5">
+        <div class="mainform p-4 rounded-4">
+            <h1 class="text-white pb-5  text-center">Smart Login System</h1>
+            <div class="formInputs">
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Email address</label>
+                </div>
+                <div class="form-floating">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Password</label>
+                </div>
+                <div id="logInMatch" class="alert alert-danger d-none py-2 mt-2" role="alert">
+                    E-mail or Password is incorrect
+                </div>
+                <button class="btn text-white mt-4 mb-4 border border-2 border-white rounded-3 px-4 d-block m-auto fw-bolder"><a id="logInBtn" href="./home.html">LogIn</a></button>
+            </div>
+            <h5 class="text-white text-center">Don't have an account?.  <a id="registerBtn" href="./Register.html">Sign Up</a></h5>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="./js/index.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

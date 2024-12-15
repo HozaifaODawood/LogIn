@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+
+    <div class="container rounded-5 p-4 my-5">
+        <div class="mainform p-4 rounded-4">
+            <h1 class="text-white pb-5  text-center">Smart Login System</h1>
+            <h4 class="text-white pb-4 text-center">Please Register</h4>
+            <div class="formInputs">
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <div id="mailValidity" class="alert alert-danger d-none py-2 mt-2" role="alert">
+                        Please Type a Valid E-Mail
+                    </div>
+                    <div id="mailMatch" class="alert alert-danger d-none py-2 mt-2" role="alert">
+                        This e-mail is already registered, Please Type another e-mail
+                    </div>
+                    <label for="floatingInput">Email address</label>
+                </div>
+                <div class="form-floating">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                    <div id="pass1Validity" class="alert alert-danger d-none py-2 mt-2" role="alert">
+                        Please Type a Valid Password include at least one number
+                    </div>
+                    <label for="floatingPassword">Password</label>
+                </div>
+                <div class="form-floating">
+                    <input type="password" class="form-control my-3" id="floatingPassword2" placeholder="Password">
+                    <div id="pass2Validity" class="alert alert-danger d-none py-2 mt-2" role="alert">
+                        Please Type a Valid Password
+                    </div>
+                    <div id="pass2Matches" class="alert alert-danger d-none py-2 mt-2" role="alert">
+                        Password Dose not match
+                    </div>
+                    <label for="floatingPassword2">Confirm Password</label>
+                </div>
+                <button id="register"
+                    class="btn text-white mt-5 mb-4 border border-2 border-white rounded-3 px-4 d-block m-auto fw-bolder">Register</button>
+                <button
+                    class="btn text-white mt-5 mb-4 border border-2 border-white rounded-3 px-4 d-block m-auto fw-bolder"><a  id="backBtnA"
+                        href="./index.html">back</a></button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="./js/register.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
